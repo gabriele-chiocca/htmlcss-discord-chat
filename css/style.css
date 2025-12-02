@@ -1,0 +1,26 @@
+.container-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sidebar {
+    padding: 16px;
+    gap: 8px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.sezione-chat {
+    display: flex;
+    background-color: blue;
+}
+
+.icona-server {
+    
+    height: 8vh;
+    display: flex;
+    width: 13vw;
+    border-radius: 52px;
+    background-color: red;
+}
