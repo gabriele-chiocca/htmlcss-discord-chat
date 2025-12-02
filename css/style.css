@@ -1,3 +1,7 @@
+body {
+    color: white;
+}
+
 .container-main {
     display: flex;
     flex-wrap: wrap;
@@ -9,11 +13,14 @@
     align-items: center;
     display: flex;
     flex-direction: column;
+    background-color: black;
 }
 
 .sezione-chat {
     display: flex;
-    background-color: blue;
+    flex-grow: 1;
+    background-color: rgb(34, 34, 34);
+    flex-direction: column;
 }
 
 .icona-server {
@@ -23,4 +30,72 @@
     width: 13vw;
     border-radius: 52px;
     background-color: red;
+}
+
+.search-row{
+    gap: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.friends {
+    display: flex;
+    flex-grow: 1;
+}
+
+.search {
+    display: flex;
+    padding-left: 8px;
+}
+
+.buttonfriends {
+    border-radius: 16px;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.lista-messaggi {
+    display: flex;
+    flex-direction: column;
+}
+
+.riga-messaggio {
+    display: flex;
+    flex-direction: row;
+    padding-left: 8px;
+    padding-right: 16px;
+}
+
+.messaggio-sinistro {
+    
+    display: flex;
+    flex-grow: 1;
+}
+.messaggio-destro {
+    
+}
+.Name-Text {
+    flex-direction: column;
+    display: flex;
+    padding-left: 16px;
+}
+
+.img-profile {
+    width: 10vW;
+}
+
+.img-profile img {
+    border-radius: 24px;
+}
+
+.bi-search {
+    background-color: grey;
+    border-radius: 13px;
+    padding: 4px 8px;
+}
+
+.Nome-inactive {
+    color: grey;
+    
 }
